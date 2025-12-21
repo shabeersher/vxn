@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#007aff" />
+    <meta
+      name="description"
+      content="Learn how Dynamics 365 transforms manufacturing with production planning, supply chain visibility, quality control, and IoT integration."
+    />
+    <meta
+      name="keywords"
+      content="dynamics 365 manufacturing, erp manufacturing canada, production planning dynamics, supply chain dynamics 365"
+    />
+    <meta name="author" content="VXN VISION" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:url"
+      content="https://vxn-vision.com/blog/dynamics-365-manufacturing"
+    />
+    <meta
+      property="og:title"
+      content="Dynamics 365 for Manufacturing: Production, Supply Chain, and Quality"
+    />
+    <meta
+      property="og:description"
+      content="Learn how Dynamics 365 transforms manufacturing with production planning, supply chain visibility, quality control, and IoT integration."
+    />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1565043666747-69f6646db940?q=80&w=1200&auto=format&fit=crop"
+    />
+    <meta property="og:locale" content="en_CA" />
+    <meta property="article:published_time" content="2024-12-15T00:00:00Z" />
+    <meta property="article:section" content="Manufacturing" />
+    <meta property="article:tag" content="dynamics 365 manufacturing" />
+    <meta property="article:tag" content="erp manufacturing canada" />
+    <meta property="article:tag" content="production planning dynamics" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://vxn-vision.com/blog/dynamics-365-manufacturing"
+    />
+    <meta
+      property="twitter:title"
+      content="Dynamics 365 for Manufacturing: Production, Supply Chain, and Quality"
+    />
+    <meta
+      property="twitter:description"
+      content="Learn how Dynamics 365 transforms manufacturing with production planning, supply chain visibility, quality control, and IoT integration."
+    />
+    <meta
+      property="twitter:image"
+      content="https://images.unsplash.com/photo-1565043666747-69f6646db940?q=80&w=1200&auto=format&fit=crop"
+    />
+    <meta name="twitter:site" content="@vxncrm" />
+
+    <!-- Canonical URL -->
+    <link
+      rel="canonical"
+      href="https://vxn-vision.com/blog/dynamics-365-manufacturing"
+    />
+
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/jpeg"
+      href="assets/img/Power_Platform_scalable/shabeer_logo.jpg"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/img/Power_Platform_scalable/shabeer_logo.jpg"
+    />
+
+    <title>
+      Dynamics 365 for Manufacturing: Production, Supply Chain, and Quality | VXN VISION Blog
+    </title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/blog.css" />
+
+    <script defer src="assets/js/i18n.js"></script>
+    <script defer src="assets/js/main.js"></script>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Dynamics 365 for Manufacturing: Production, Supply Chain, and Quality",
+        "description": "Learn how Dynamics 365 transforms manufacturing with production planning, supply chain visibility, quality control, and IoT integration.",
+        "image": "https://images.unsplash.com/photo-1565043666747-69f6646db940?q=80&w=1200&auto=format&fit=crop",
+        "author": {
+          "@type": "Person",
+          "name": "VXN VISION"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "VXN VISION"
+        },
+        "datePublished": "2024-12-15",
+        "dateModified": "2024-12-15",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://vxn-vision.com/blog/dynamics-365-manufacturing"
+        },
+        "keywords": "dynamics 365 manufacturing, erp manufacturing canada, production planning dynamics, supply chain dynamics 365",
+        "articleSection": "Manufacturing",
+        "inLanguage": "en-CA"
+      }
+    </script>
+  </head>
+  <body class="is-ready">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container nav" role="navigation" aria-label="Main">
+        <a class="brand" href="index.html" aria-label="VXN VISION Home">
+          <img
+            class="brand-img"
+            src="assets/img/Power_Platform_scalable/background reomved.png"
+            alt="VXN VISION"
+          />
+        </a>
+        <nav class="nav-links" aria-label="Primary">
+          <a href="index.html" data-i18n="nav.home">Home</a>
+          <a href="services.html" data-i18n="nav.services">Services</a>
+          <a href="solutions.html" data-i18n="nav.solutions">Solutions</a>
+          <a href="about.html" data-i18n="nav.about">About</a>
+          <a href="blog.html" data-i18n="nav.blog">Blog</a>
+          <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="nav-cta">
+          <a
+            class="btn btn-primary"
+            href="contact.html"
+            data-i18n="nav.requestDemo"
+            >Request a demo</a
+          >
+          <div class="lang-switch" aria-label="Language">
+            <button type="button" data-lang="en">EN</button>
+            <button type="button" data-lang="fr">FR</button>
+          </div>
+          <button
+            class="nav-toggle"
+            aria-label="Open menu"
+            aria-expanded="false"
+          >
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              aria-hidden="true"
+            >
+              <path
+                d="M4 6h16M4 12h16M4 18h16"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="mobile-drawer" hidden>
+        <div class="stack container">
+          <div class="lang-switch" aria-label="Language">
+            <button type="button" data-lang="en">EN</button>
+            <button type="button" data-lang="fr">FR</button>
+          </div>
+          <a href="index.html" data-i18n="nav.home">Home</a>
+          <a href="services.html" data-i18n="nav.services">Services</a>
+          <a href="solutions.html" data-i18n="nav.solutions">Solutions</a>
+          <a href="about.html" data-i18n="nav.about">About</a>
+          <a href="blog.html" data-i18n="nav.blog">Blog</a>
+          <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <article class="blog-post">
+        <header class="blog-post-header">
+          <div class="container-narrow">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+              <a
+                href="blog.html"
+                class="back-to-blog"
+                data-i18n="blog.post.back"
+                >Back to Blog</a
+              >
+            </nav>
+            <div class="blog-post-meta">
+              <span class="category" data-i18n="blog.posts.24.category">Manufacturing</span>
+              <span class="read-time" data-i18n="blog.posts.24.readTime">11 min read</span>
+              <time datetime="2024-12-15">December 15, 2024</time>
+            </div>
+            <h1 class="blog-post-title" data-i18n="blog.posts.24.title">
+              Dynamics 365 for Manufacturing: Production, Supply Chain, and Quality
+            </h1>
+            <p class="blog-post-excerpt" data-i18n="blog.posts.24.excerpt">
+              Learn how Dynamics 365 transforms manufacturing with production planning, supply chain visibility, quality control, and IoT integration.
+            </p>
+            <div class="blog-post-author">
+              <img
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face"
+                alt="Author avatar"
+                class="author-avatar"
+              />
+              <div>
+                <strong>VXN VISION Team</strong>
+                <span>CRM & Power Platform Specialists</span>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <div class="blog-post-content">
+          <div class="container-narrow">
+            <img
+              src="https://images.unsplash.com/photo-1565043666747-69f6646db940?q=80&w=1200&auto=format&fit=crop"
+              alt="Modern manufacturing facility"
+              class="blog-post-hero-image"
+            />
+
+            <div class="content-body content-body-en">
+              <p>Manufacturing is complex. You're coordinating suppliers, managing production schedules, maintaining quality standards, tracking inventory across multiple locations, and delivering finished products to customers—all while managing costs and staying competitive.</p>
+
+              <p>Legacy systems weren't built for this complexity. Disconnected ERP, MES, CRM, and supply chain systems create data silos, inefficiencies, and blind spots that cost money and opportunities.</p>
+
+              <p><strong>Dynamics 365 for Manufacturing</strong> unifies operations, supply chain, sales, and service in one integrated platform—delivering the visibility, control, and intelligence modern manufacturers need to compete.</p>
+
+              <h2>The Manufacturing Challenge</h2>
+
+              <p>Before exploring Dynamics 365 capabilities, let's understand what manufacturers face:</p>
+
+              <h3>Supply Chain Volatility</h3>
+              <p>Global disruptions, supplier reliability issues, material shortages, and transportation challenges make supply chain management increasingly difficult.</p>
+
+              <h3>Production Complexity</h3>
+              <p>Make-to-order, configure-to-order, and mixed-mode manufacturing require flexible production planning and scheduling.</p>
+
+              <h3>Quality and Compliance</h3>
+              <p>Regulatory requirements (ISO, FDA, industry-specific standards) demand rigorous quality control and traceability.</p>
+
+              <h3>Cost Pressure</h3>
+              <p>Thin margins require operational excellence. Waste, downtime, and inefficiency directly impact profitability.</p>
+
+              <h3>Customer Expectations</h3>
+              <p>B2B and B2C customers demand transparency, customization, and fast delivery—often with shorter lead times than ever.</p>
+
+              <h3>Digital Transformation</h3>
+              <p>IoT, AI, predictive maintenance, and Industry 4.0 technologies are no longer optional—they're competitive necessities.</p>
+
+              <h3>Legacy System Limitations</h3>
+              <p>Old ERP systems lack modern capabilities. Customizations are expensive and fragile. Integration is painful.</p>
+
+              <p><strong>Dynamics 365 addresses each of these challenges.</strong></p>
+
+              <h2>Dynamics 365 Manufacturing Modules</h2>
+
+              <p>Microsoft offers comprehensive manufacturing capabilities across several modules:</p>
+
+              <p><strong>Dynamics 365 Supply Chain Management</strong><br/>
+              Core ERP for manufacturing operations, inventory, warehousing, and logistics.</p>
+
+              <p><strong>Dynamics 365 Finance</strong><br/>
+              Financial management, accounting, budgeting, and reporting.</p>
+
+              <p><strong>Dynamics 365 Sales</strong><br/>
+              CRM for customer relationships, quotes, and order management.</p>
+
+              <p><strong>Dynamics 365 Customer Service</strong><br/>
+              Support for customers, dealers, and distributors.</p>
+
+              <p><strong>Dynamics 365 Field Service</strong><br/>
+              Service operations for equipment maintenance and repair.</p>
+
+              <p><strong>Power Platform (Apps, Automate, BI)</strong><br/>
+              Custom apps, workflow automation, and analytics.</p>
+
+              <p>Together, these modules create an end-to-end manufacturing platform.</p>
+
+              <h2>Production Planning and Scheduling</h2>
+
+              <h3>Master Production Scheduling</h3>
+              <p>Plan production based on:</p>
+              <ul>
+                <li>Sales forecasts</li>
+                <li>Customer orders</li>
+                <li>Inventory levels</li>
+                <li>Capacity constraints</li>
+                <li>Material availability</li>
+              </ul>
+
+              <h3>Materials Requirements Planning (MRP)</h3>
+              <p>Automatically calculate:</p>
+              <ul>
+                <li>What materials are needed</li>
+                <li>When they're needed</li>
+                <li>How much to order</li>
+                <li>Optimal lot sizes</li>
+              </ul>
+
+              <h3>Capacity Planning</h3>
+              <p>Optimize resource utilization:</p>
+              <ul>
+                <li>Machine capacity</li>
+                <li>Labor availability</li>
+                <li>Bottleneck identification</li>
+                <li>What-if scenario planning</li>
+              </ul>
+
+              <h3>Advanced Planning Optimization</h3>
+              <p>AI-powered planning engine that:</p>
+              <ul>
+                <li>Optimizes production schedules</li>
+                <li>Balances competing priorities</li>
+                <li>Minimizes setup times and changeovers</li>
+                <li>Considers resource constraints</li>
+                <li>Adapts to disruptions in real-time</li>
+              </ul>
+
+              <h3>Discrete, Process, and Mixed-Mode Manufacturing</h3>
+              <p>Support multiple manufacturing types:</p>
+              <ul>
+                <li><strong>Discrete:</strong> Automobiles, electronics, machinery</li>
+                <li><strong>Process:</strong> Chemicals, food and beverage, pharmaceuticals</li>
+                <li><strong>Mixed-Mode:</strong> Products combining both methods</li>
+              </ul>
+
+              <h2>Shop Floor Management</h2>
+
+              <h3>Work Order Management</h3>
+              <p>Track production from release to completion:</p>
+              <ul>
+                <li>Work order creation from sales orders or forecasts</li>
+                <li>Bill of materials (BOM) explosion</li>
+                <li>Routing and operations</li>
+                <li>Material allocation</li>
+                <li>Labor and machine tracking</li>
+              </ul>
+
+              <h3>Job Scheduling</h3>
+              <p>Schedule operations across work centers:</p>
+              <ul>
+                <li>Finite capacity scheduling</li>
+                <li>Drag-and-drop visual scheduling boards</li>
+                <li>Priority-based sequencing</li>
+                <li>Real-time status updates</li>
+              </ul>
+
+              <h3>Manufacturing Execution Integration</h3>
+              <p>Integrate with MES (Manufacturing Execution Systems) for:</p>
+              <ul>
+                <li>Real-time production tracking</li>
+                <li>Machine status monitoring</li>
+                <li>Operator instructions</li>
+                <li>Data collection from shop floor</li>
+                <li>OEE (Overall Equipment Effectiveness) calculation</li>
+              </ul>
+
+              <h3>Quality Management</h3>
+              <p>Ensure product quality throughout production:</p>
+              <ul>
+                <li>Quality specifications by product and operation</li>
+                <li>In-process inspections</li>
+                <li>Non-conformance tracking</li>
+                <li>Corrective and preventive actions (CAPA)</li>
+                <li>Statistical process control (SPC)</li>
+              </ul>
+
+              <h2>Supply Chain Management</h2>
+
+              <h3>Procurement and Supplier Management</h3>
+              <p>Manage supplier relationships:</p>
+              <ul>
+                <li>Supplier portal for collaboration</li>
+                <li>Purchase requisitions and approvals</li>
+                <li>RFQ (Request for Quote) management</li>
+                <li>Purchase order automation</li>
+                <li>Supplier performance tracking</li>
+              </ul>
+
+              <h3>Inventory Management</h3>
+              <p>Real-time inventory visibility:</p>
+              <ul>
+                <li>Multi-site, multi-warehouse management</li>
+                <li>Lot and serial number tracking</li>
+                <li>FIFO/LIFO/Standard costing</li>
+                <li>Cycle counting and physical inventory</li>
+                <li>Inventory optimization</li>
+              </ul>
+
+              <h3>Warehouse Management</h3>
+              <p>Advanced warehousing capabilities:</p>
+              <ul>
+                <li>Inbound receiving and put-away</li>
+                <li>Picking strategies (wave, batch, zone)</li>
+                <li>Packing and shipping</li>
+                <li>Cross-docking</li>
+                <li>Mobile devices for warehouse workers</li>
+                <li>Warehouse automation integration</li>
+              </ul>
+
+              <h3>Demand Forecasting</h3>
+              <p>AI-powered demand forecasting:</p>
+              <ul>
+                <li>Historical sales analysis</li>
+                <li>Seasonality and trends</li>
+                <li>External factors (economic indicators, weather)</li>
+                <li>Forecast accuracy tracking</li>
+                <li>Collaborative planning</li>
+              </ul>
+
+              <h3>Transportation Management</h3>
+              <p>Optimize logistics:</p>
+              <ul>
+                <li>Carrier selection and rating</li>
+                <li>Route optimization</li>
+                <li>Freight consolidation</li>
+                <li>Shipment tracking</li>
+                <li>Transportation cost management</li>
+              </ul>
+
+              <h2>Product Lifecycle Management</h2>
+
+              <h3>Product Information Management (PIM)</h3>
+              <p>Centralized product data:</p>
+              <ul>
+                <li>Product specifications</li>
+                <li>BOMs (Bills of Materials)</li>
+                <li>Drawings and documentation</li>
+                <li>Engineering change orders (ECOs)</li>
+                <li>Product variants and configurations</li>
+              </ul>
+
+              <h3>Engineering Change Management</h3>
+              <p>Manage product changes:</p>
+              <ul>
+                <li>Change requests and approvals</li>
+                <li>Impact analysis</li>
+                <li>Version control</li>
+                <li>Effectivity dates</li>
+                <li>Audit trail</li>
+              </ul>
+
+              <h3>Product Configuration</h3>
+              <p>Support configure-to-order:</p>
+              <ul>
+                <li>Product configurators</li>
+                <li>Rules-based configuration</li>
+                <li>Valid combinations enforcement</li>
+                <li>Automatic BOM and routing generation</li>
+                <li>Pricing based on configuration</li>
+              </ul>
+
+              <h2>Quality and Compliance</h2>
+
+              <h3>Quality Control</h3>
+              <p>Comprehensive quality management:</p>
+              <ul>
+                <li>Quality test plans</li>
+                <li>Sampling procedures</li>
+                <li>Inspection results recording</li>
+                <li>Nonconforming material handling</li>
+                <li>Quarantine management</li>
+              </ul>
+
+              <h3>Regulatory Compliance</h3>
+              <p>Meet industry regulations:</p>
+              <ul>
+                <li>FDA 21 CFR Part 11 (pharmaceuticals, medical devices)</li>
+                <li>ISO 9001, ISO 13485</li>
+                <li>HACCP (food safety)</li>
+                <li>RoHS, REACH (environmental)</li>
+                <li>Industry-specific standards</li>
+              </ul>
+
+              <h3>Traceability</h3>
+              <p>Complete lot and serial traceability:</p>
+              <ul>
+                <li>Track materials from supplier through production to customer</li>
+                <li>Forward and backward traceability</li>
+                <li>Recall management</li>
+                <li>Compliance reporting</li>
+              </ul>
+
+              <h2>Cost Management</h2>
+
+              <h3>Cost Accounting</h3>
+              <p>Accurate product costing:</p>
+              <ul>
+                <li>Standard, average, and FIFO costing methods</li>
+                <li>Overhead allocation</li>
+                <li>Variance analysis</li>
+                <li>Activity-based costing</li>
+              </ul>
+
+              <h3>Profitability Analysis</h3>
+              <p>Understand true profitability:</p>
+              <ul>
+                <li>Product profitability</li>
+                <li>Customer profitability</li>
+                <li>Order profitability</li>
+                <li>Channel analysis</li>
+              </ul>
+
+              <h3>Budget Management</h3>
+              <p>Control costs:</p>
+              <ul>
+                <li>Budget creation and approval</li>
+                <li>Budget vs. actual tracking</li>
+                <li>Variance analysis</li>
+                <li>Cost center management</li>
+              </ul>
+
+              <h2>Sales and Customer Management</h2>
+
+              <h3>Quote-to-Cash Process</h3>
+              <p>Streamlined sales operations:</p>
+              <ul>
+                <li>CRM-driven opportunity management</li>
+                <li>Quotation with product configuration</li>
+                <li>Order entry and promising</li>
+                <li>Production scheduling</li>
+                <li>Shipping and invoicing</li>
+                <li>Payment collection</li>
+              </ul>
+
+              <h3>Customer Portal</h3>
+              <p>Self-service for customers:</p>
+              <ul>
+                <li>Order status tracking</li>
+                <li>Product catalogs</li>
+                <li>Invoice access</li>
+                <li>Support case submission</li>
+                <li>Documentation downloads</li>
+              </ul>
+
+              <h3>Dealer and Distributor Management</h3>
+              <p>Manage channel partners:</p>
+              <ul>
+                <li>Partner portals</li>
+                <li>Rebate and incentive programs</li>
+                <li>Co-op marketing funds</li>
+                <li>Performance tracking</li>
+              </ul>
+
+              <h2>Service and Maintenance</h2>
+
+              <h3>Field Service for Manufacturers</h3>
+              <p>Service for installed equipment:</p>
+              <ul>
+                <li>Work order management</li>
+                <li>Technician scheduling and dispatch</li>
+                <li>Mobile apps for field technicians</li>
+                <li>Parts inventory management</li>
+                <li>Service contract management</li>
+              </ul>
+
+              <h3>Preventive Maintenance</h3>
+              <p>Proactive equipment maintenance:</p>
+              <ul>
+                <li>Maintenance schedules</li>
+                <li>Automated work order creation</li>
+                <li>Asset tracking</li>
+                <li>Maintenance history</li>
+              </ul>
+
+              <h3>Warranty Management</h3>
+              <p>Track product warranties:</p>
+              <ul>
+                <li>Warranty terms and conditions</li>
+                <li>Claim processing</li>
+                <li>Supplier recovery</li>
+                <li>Cost analysis</li>
+              </ul>
+
+              <h2>IoT and Connected Products</h2>
+
+              <h3>IoT Integration (Azure IoT)</h3>
+              <p>Connect manufacturing equipment and products:</p>
+              <ul>
+                <li>Real-time machine monitoring</li>
+                <li>Production telemetry</li>
+                <li>Equipment health tracking</li>
+                <li>Remote diagnostics</li>
+              </ul>
+
+              <h3>Predictive Maintenance</h3>
+              <p>Prevent equipment failures:</p>
+              <ul>
+                <li>Sensor data analysis</li>
+                <li>Anomaly detection</li>
+                <li>Failure prediction</li>
+                <li>Automated work order creation</li>
+              </ul>
+
+              <h3>Connected Products</h3>
+              <p>Monitor products in the field:</p>
+              <ul>
+                <li>Product usage data</li>
+                <li>Performance monitoring</li>
+                <li>Remote troubleshooting</li>
+                <li>Proactive service</li>
+              </ul>
+
+              <h2>Business Intelligence and Analytics</h2>
+
+              <p><strong>Pre-Built Manufacturing Dashboards:</strong></p>
+              <ul>
+                <li>Production performance (OEE, throughput, yield)</li>
+                <li>Supply chain metrics (on-time delivery, inventory turns)</li>
+                <li>Quality metrics (defect rates, first-pass yield)</li>
+                <li>Financial performance (margins, variances)</li>
+              </ul>
+
+              <p><strong>Power BI Integration:</strong></p>
+              <ul>
+                <li>Custom dashboards for specific KPIs</li>
+                <li>Real-time operational intelligence</li>
+                <li>Predictive analytics</li>
+                <li>Mobile access to metrics</li>
+              </ul>
+
+              <p><strong>AI and Machine Learning:</strong></p>
+              <ul>
+                <li>Demand forecasting</li>
+                <li>Quality prediction</li>
+                <li>Maintenance optimization</li>
+                <li>Supply chain disruption prediction</li>
+              </ul>
+
+              <h2>Integration Capabilities</h2>
+
+              <p>Manufacturers rarely replace all systems at once. Dynamics 365 integrates with:</p>
+
+              <p><strong>Manufacturing Execution Systems (MES):</strong></p>
+              <ul>
+                <li>Rockwell, Siemens, Wonderware</li>
+                <li>Real-time production data exchange</li>
+              </ul>
+
+              <p><strong>CAD/PLM Systems:</strong></p>
+              <ul>
+                <li>AutoCAD, SolidWorks, PTC Windchill</li>
+                <li>Product data synchronization</li>
+              </ul>
+
+              <p><strong>Quality Management Systems:</strong></p>
+              <ul>
+                <li>ETQ, MasterControl, TrackWise</li>
+                <li>Quality data integration</li>
+              </ul>
+
+              <p><strong>Warehouse Automation:</strong></p>
+              <ul>
+                <li>AS/RS, conveyor systems, robotics</li>
+                <li>Automated material handling</li>
+              </ul>
+
+              <p><strong>EDI and B2B Integration:</strong></p>
+              <ul>
+                <li>Customer and supplier EDI</li>
+                <li>Supply chain visibility platforms</li>
+              </ul>
+
+              <h2>Industry-Specific Solutions</h2>
+
+              <p>Dynamics 365 offers tailored solutions for manufacturing sub-sectors:</p>
+
+              <h3>Automotive</h3>
+              <ul>
+                <li>Supplier collaboration</li>
+                <li>Just-in-time manufacturing</li>
+                <li>Complex BOM management</li>
+                <li>Recall management</li>
+              </ul>
+
+              <h3>Electronics and High-Tech</h3>
+              <ul>
+                <li>Rapid product lifecycles</li>
+                <li>Configure-to-order</li>
+                <li>Global supply chains</li>
+                <li>Compliance (RoHS, REACH)</li>
+              </ul>
+
+              <h3>Food and Beverage</h3>
+              <ul>
+                <li>Recipe/formula management</li>
+                <li>Batch processing</li>
+                <li>Food safety compliance (HACCP, FDA)</li>
+                <li>Shelf life and expiration management</li>
+              </ul>
+
+              <h3>Pharmaceuticals and Medical Devices</h3>
+              <ul>
+                <li>GMP compliance</li>
+                <li>Validation and qualification</li>
+                <li>Batch record management</li>
+                <li>FDA 21 CFR Part 11 compliance</li>
+              </ul>
+
+              <h3>Industrial Equipment</h3>
+              <ul>
+                <li>Engineer-to-order</li>
+                <li>Project-based manufacturing</li>
+                <li>Service after sale</li>
+                <li>Spare parts management</li>
+              </ul>
+
+              <h2>Real-World Manufacturing Success Stories</h2>
+
+              <p><strong>Ontario Automotive Supplier</strong><br/>
+              Implemented Dynamics 365 Supply Chain Management. Result: Inventory reduced 30%, on-time delivery improved from 78% to 96%, production planning cycle time decreased 40%.</p>
+
+              <p><strong>Quebec Food Manufacturer</strong><br/>
+              Deployed Dynamics 365 with quality management. Result: Full traceability achieved, regulatory compliance simplified, recall response time reduced from days to hours.</p>
+
+              <p><strong>BC Electronics Manufacturer</strong><br/>
+              Adopted Dynamics 365 with IoT integration. Result: Equipment downtime reduced 45%, predictive maintenance prevented $500K in production losses, OEE improved from 68% to 82%.</p>
+
+              <p><strong>Alberta Industrial Equipment Manufacturer</strong><br/>
+              Migrated from legacy ERP to Dynamics 365. Result: Quote-to-cash cycle reduced 50%, project visibility improved, customer satisfaction increased 28%.</p>
+
+              <h2>Implementation Approach for Manufacturers</h2>
+
+              <p>Manufacturing implementations require specialized expertise:</p>
+
+              <p><strong>Discovery Phase:</strong></p>
+              <ul>
+                <li>Map current manufacturing processes</li>
+                <li>Identify integration requirements</li>
+                <li>Define quality and compliance needs</li>
+                <li>Assess data migration complexity</li>
+              </ul>
+
+              <p><strong>Design Phase:</strong></p>
+              <ul>
+                <li>Configure production workflows</li>
+                <li>Design BOM and routing structures</li>
+                <li>Define costing methodology</li>
+                <li>Plan supply chain processes</li>
+              </ul>
+
+              <p><strong>Development Phase:</strong></p>
+              <ul>
+                <li>Configure Dynamics 365 modules</li>
+                <li>Develop integrations (MES, CAD, etc.)</li>
+                <li>Customize for industry requirements</li>
+                <li>Migrate master data (products, BOMs, suppliers)</li>
+              </ul>
+
+              <p><strong>Testing Phase:</strong></p>
+              <ul>
+                <li>End-to-end process testing</li>
+                <li>Integration testing</li>
+                <li>Performance testing</li>
+                <li>User acceptance testing</li>
+              </ul>
+
+              <p><strong>Deployment:</strong></p>
+              <ul>
+                <li>Phased rollout by site or product line</li>
+                <li>Parallel operation period</li>
+                <li>Cutover planning</li>
+                <li>Go-live support</li>
+              </ul>
+
+              <p><strong>Timeline:</strong></p>
+              <ul>
+                <li>Small manufacturer (single site): 4-6 months</li>
+                <li>Mid-market (multiple sites): 8-12 months</li>
+                <li>Enterprise (global operations): 12-24+ months</li>
+              </ul>
+
+              <h2>Why Canadian Manufacturers Choose VXN Vision</h2>
+
+              <p>Manufacturing implementations are complex. They require deep industry knowledge, technical expertise, and change management skills.</p>
+
+              <p>VXN Vision specializes in Dynamics 365 for manufacturing:</p>
+
+              <p><strong>Industry Expertise:</strong></p>
+              <ul>
+                <li>15+ years manufacturing ERP experience</li>
+                <li>Implementations across automotive, food and beverage, electronics, industrial equipment</li>
+                <li>Understanding of Canadian manufacturing landscape</li>
+              </ul>
+
+              <p><strong>Technical Capabilities:</strong></p>
+              <ul>
+                <li>Dynamics 365 Supply Chain Management certified</li>
+                <li>MES, IoT, and automation integration</li>
+                <li>Quality and compliance implementation</li>
+                <li>Performance optimization</li>
+              </ul>
+
+              <p><strong>Implementation Methodology:</strong></p>
+              <ul>
+                <li>Proven approach minimizing disruption</li>
+                <li>Phased deployment strategies</li>
+                <li>Change management focus</li>
+                <li>Knowledge transfer to internal teams</li>
+              </ul>
+
+              <p><strong>Post-Implementation Support:</strong></p>
+              <ul>
+                <li>Ongoing optimization services</li>
+                <li>User training and enablement</li>
+                <li>System administration support</li>
+                <li>Continuous improvement</li>
+              </ul>
+
+              <p>We've helped Canadian manufacturers transform operations, improve efficiency, and gain competitive advantage with Dynamics 365.</p>
+
+              <p><strong>Ready to modernize your manufacturing operations? Book your free consultation with VXN Vision today.</strong></p>
+            </div>
+
+            <div class="content-body content-body-fr">
+              <p>La fabrication est complexe. Vous jongler avec les calendriers de production, gérez les chaînes d'approvisionnement, assurez la qualité et essayez de répondre aux demandes des clients—tout en contrôlant les coûts.</p>
+
+              <p>Les systèmes hérités ne peuvent souvent pas suivre. Les tableurs et les applications déconnectées créent des silos de données, ralentissent la prise de décision et vous laissent réagir aux problèmes au lieu de les prévenir.</p>
+
+              <p><strong>Microsoft Dynamics 365</strong> offre une plateforme intégrée qui connecte l'ensemble de votre opération de fabrication—de la commande client au produit fini.</p>
+
+              <p>Ce guide explore comment Dynamics 365 transforme les opérations de fabrication pour les manufacturiers canadiens.</p>
+
+              <h2>Le défi de la fabrication</h2>
+
+              <p>Les manufacturiers canadiens font face à des pressions croissantes :</p>
+
+              <h3>Perturbation de la chaîne d'approvisionnement</h3>
+              <ul>
+                <li>Volatilité mondiale de la chaîne d'approvisionnement</li>
+                <li>Préoccupations sur la fiabilité des fournisseurs</li>
+                <li>Hausse des coûts logistiques</li>
+                <li>Besoin de visibilité sur la chaîne d'approvisionnement</li>
+              </ul>
+
+              <h3>Attentes des clients</h3>
+              <ul>
+                <li>Délais de livraison plus courts</li>
+                <li>Personnalisation et configuration à la commande</li>
+                <li>Visibilité en temps réel des commandes</li>
+                <li>Constance de la qualité</li>
+              </ul>
+
+              <h3>Efficacité opérationnelle</h3>
+              <ul>
+                <li>Pénuries de main-d'œuvre et lacunes de compétences</li>
+                <li>Optimisation de l'utilisation des équipements</li>
+                <li>Défis de gestion des stocks</li>
+                <li>Pression pour réduire les déchets</li>
+              </ul>
+
+              <h3>Évolution technologique</h3>
+              <ul>
+                <li>Industrie 4.0 et IoT</li>
+                <li>Exigences de jumeau numérique</li>
+                <li>Maintenance prédictive</li>
+                <li>IA et automatisation</li>
+              </ul>
+
+              <h2>Dynamics 365 pour la fabrication</h2>
+
+              <p>Microsoft offre des applications spécialisées pour la fabrication :</p>
+
+              <h3>Dynamics 365 Supply Chain Management</h3>
+              <p>L'ERP principal pour les opérations de fabrication :</p>
+              <ul>
+                <li>Planification et ordonnancement de la production</li>
+                <li>Gestion des stocks et des entrepôts</li>
+                <li>Approvisionnement et sourcing</li>
+                <li>Gestion de la qualité</li>
+                <li>Gestion des coûts</li>
+                <li>Gestion des actifs</li>
+              </ul>
+
+              <h3>Dynamics 365 Finance</h3>
+              <p>Gestion financière intégrée aux opérations :</p>
+              <ul>
+                <li>Grand livre et reporting financier</li>
+                <li>Comptes fournisseurs et clients</li>
+                <li>Budgétisation et prévisions</li>
+                <li>Immobilisations</li>
+                <li>Multi-devises et multi-entités</li>
+              </ul>
+
+              <h3>Dynamics 365 Sales</h3>
+              <p>Connectez les ventes à la fabrication :</p>
+              <ul>
+                <li>Configuration-prix-devis (CPQ)</li>
+                <li>Gestion des commandes</li>
+                <li>Gestion de la relation client</li>
+                <li>Prévisions de ventes</li>
+              </ul>
+
+              <h3>Dynamics 365 Field Service</h3>
+              <p>Pour les manufacturiers avec des opérations de service :</p>
+              <ul>
+                <li>Service et maintenance des équipements</li>
+                <li>Planification des techniciens</li>
+                <li>Gestion des garanties</li>
+                <li>Service prédictif activé par l'IoT</li>
+              </ul>
+
+              <h2>Planification et contrôle de la production</h2>
+
+              <h3>Planification générale</h3>
+              <p>Optimisez l'ordonnancement de la production :</p>
+              <ul>
+                <li><strong>Prévision de la demande :</strong> Prédire les besoins futurs basés sur l'historique et les tendances</li>
+                <li><strong>Planification des besoins matières (MRP) :</strong> Calculer quoi fabriquer et acheter</li>
+                <li><strong>Planification de la capacité :</strong> Équilibrer la charge avec la capacité disponible</li>
+                <li><strong>Optimisation de la planification :</strong> Planification améliorée par l'IA pour des calendriers plus rapides et meilleurs</li>
+              </ul>
+
+              <h3>Ordres de fabrication</h3>
+              <p>Gérez l'exécution en atelier :</p>
+              <ul>
+                <li>Créer et lancer des ordres de fabrication</li>
+                <li>Gestion des nomenclatures (BOM)</li>
+                <li>Gammes et opérations</li>
+                <li>Ordonnancement et séquençage des travaux</li>
+                <li>Reporting et costing de production</li>
+              </ul>
+
+              <h3>Contrôle d'atelier</h3>
+              <p>Visibilité de production en temps réel :</p>
+              <ul>
+                <li>Terminaux de bons de travail pour les opérateurs</li>
+                <li>Suivi de l'avancement en temps réel</li>
+                <li>Capture du temps machine et main-d'œuvre</li>
+                <li>Enregistrement des rebuts et retouches</li>
+              </ul>
+
+              <h3>Fabrication lean</h3>
+              <p>Support des principes lean :</p>
+              <ul>
+                <li>Tableaux et règles Kanban</li>
+                <li>Modélisation des flux de production</li>
+                <li>Réapprovisionnement en flux tiré</li>
+                <li>Suivi de l'amélioration continue</li>
+              </ul>
+
+              <h2>Visibilité de la chaîne d'approvisionnement</h2>
+
+              <h3>Gestion des stocks</h3>
+              <p>Suivez les stocks à travers les emplacements :</p>
+              <ul>
+                <li>Visibilité des stocks en temps réel</li>
+                <li>Multiples entrepôts et sites</li>
+                <li>Suivi des lots et numéros de série</li>
+                <li>Méthodes d'évaluation des stocks (FIFO, LIFO, moyenne)</li>
+                <li>Analyse du vieillissement et de la rotation des stocks</li>
+              </ul>
+
+              <h3>Gestion d'entrepôt</h3>
+              <p>Optimisez les opérations d'entrepôt :</p>
+              <ul>
+                <li>Rangement et prélèvement dirigés</li>
+                <li>Traitement par vagues et lots</li>
+                <li>Intégration d'appareils mobiles</li>
+                <li>Gestion des emplacements</li>
+                <li>Inventaire tournant et ajustements</li>
+              </ul>
+
+              <h3>Approvisionnement</h3>
+              <p>Gérez les relations fournisseurs :</p>
+              <ul>
+                <li>Gestion et évaluation des fournisseurs</li>
+                <li>Demandes d'achat et commandes</li>
+                <li>Portail de collaboration fournisseur</li>
+                <li>Gestion des contrats</li>
+                <li>Processus de sourcing et d'appel d'offres</li>
+              </ul>
+
+              <h3>Add-in de visibilité de la chaîne d'approvisionnement</h3>
+              <p>Visibilité des stocks en quasi temps réel :</p>
+              <ul>
+                <li>Agrégation des stocks inter-systèmes</li>
+                <li>Calculs de disponibilité à la promesse</li>
+                <li>Réservations souples entre les canaux</li>
+                <li>Intégration basée sur API</li>
+              </ul>
+
+              <h2>Gestion de la qualité</h2>
+
+              <h3>Contrôle qualité</h3>
+              <p>Assurez la qualité des produits :</p>
+              <ul>
+                <li>Ordres de qualité et inspections</li>
+                <li>Plans d'échantillonnage</li>
+                <li>Mesures de test et résultats</li>
+                <li>Gestion de la quarantaine</li>
+                <li>Gestion des non-conformités</li>
+              </ul>
+
+              <h3>Associations de qualité</h3>
+              <p>Automatisez les processus qualité :</p>
+              <ul>
+                <li>Déclencher les inspections automatiquement</li>
+                <li>Lier à la réception, production, expédition</li>
+                <li>Définir les exigences de test par produit</li>
+              </ul>
+
+              <h3>Analytique qualité</h3>
+              <p>Analysez les tendances de qualité :</p>
+              <ul>
+                <li>Suivi et analyse des défauts</li>
+                <li>Performance qualité des fournisseurs</li>
+                <li>Tendances de qualité de production</li>
+                <li>Reporting du coût de la qualité</li>
+              </ul>
+
+              <h2>IoT et Industrie 4.0</h2>
+
+              <h3>Intégration Azure IoT</h3>
+              <p>Connectez les machines au cloud :</p>
+              <ul>
+                <li>Collecter les données des capteurs des équipements</li>
+                <li>Tableaux de bord de surveillance en temps réel</li>
+                <li>Alertes et notifications automatiques</li>
+                <li>Analyse des données historiques</li>
+              </ul>
+
+              <h3>Maintenance prédictive</h3>
+              <p>Prévenez les pannes avant qu'elles ne se produisent :</p>
+              <ul>
+                <li>Les modèles d'apprentissage automatique détectent les anomalies</li>
+                <li>Prédire les pannes d'équipement</li>
+                <li>Créer automatiquement des ordres de maintenance</li>
+                <li>Optimiser les calendriers de maintenance</li>
+              </ul>
+
+              <h3>Intelligence des données capteurs</h3>
+              <p>Transformez les données capteurs en action :</p>
+              <ul>
+                <li>Surveiller l'état des machines</li>
+                <li>Suivre les compteurs de production</li>
+                <li>Mesurer les paramètres de qualité</li>
+                <li>Surveillance environnementale</li>
+              </ul>
+
+              <h2>Gestion des coûts</h2>
+
+              <h3>Costing des produits</h3>
+              <p>Comprenez les vrais coûts des produits :</p>
+              <ul>
+                <li>Calculs de coûts standards</li>
+                <li>Calcul des coûts BOM et gammes</li>
+                <li>Allocation des frais généraux</li>
+                <li>Analyse des écarts de coûts</li>
+              </ul>
+
+              <h3>Costing de production</h3>
+              <p>Suivez les coûts de production réels :</p>
+              <ul>
+                <li>Consommation de matières</li>
+                <li>Temps main-d'œuvre et machine</li>
+                <li>Coûts indirects</li>
+                <li>Valorisation des encours</li>
+              </ul>
+
+              <h3>Analyse de rentabilité</h3>
+              <p>Comprenez ce qui génère le profit :</p>
+              <ul>
+                <li>Rentabilité par produit</li>
+                <li>Rentabilité par client</li>
+                <li>Rentabilité par canal</li>
+                <li>Analyse de la marge contributive</li>
+              </ul>
+
+              <h2>Fabrication à la commande configurée</h2>
+
+              <h3>Configuration des produits</h3>
+              <p>Pour les produits personnalisés :</p>
+              <ul>
+                <li>Configurateur de produits basé sur les contraintes</li>
+                <li>Configuration basée sur les dimensions</li>
+                <li>Règles de configuration et validation</li>
+                <li>Génération automatique de BOM et gammes</li>
+              </ul>
+
+              <h3>Intégration CPQ</h3>
+              <p>Flux des ventes à la fabrication :</p>
+              <ul>
+                <li>Configurer les produits dans les devis de vente</li>
+                <li>Tarification automatique basée sur la configuration</li>
+                <li>Flux du devis à l'ordre de fabrication</li>
+                <li>Gestion des modifications d'ingénierie</li>
+              </ul>
+
+              <h2>Reporting et analytique</h2>
+
+              <h3>Analytique intégrée</h3>
+              <p>Insights de fabrication prêts à l'emploi :</p>
+              <ul>
+                <li>Tableaux de bord de performance de production</li>
+                <li>Analytique des stocks</li>
+                <li>Analytique des achats</li>
+                <li>Espaces de travail d'analyse des coûts</li>
+              </ul>
+
+              <h3>Intégration Power BI</h3>
+              <p>Analytique de fabrication avancée :</p>
+              <ul>
+                <li>TRS (Taux de Rendement Synthétique)</li>
+                <li>KPI et tendances de production</li>
+                <li>Tableaux de bord de visibilité de la chaîne d'approvisionnement</li>
+                <li>Métriques de qualité</li>
+              </ul>
+
+              <h3>Insights IA</h3>
+              <p>Recommandations alimentées par l'IA :</p>
+              <ul>
+                <li>Prévision de la demande</li>
+                <li>Optimisation des stocks</li>
+                <li>Recommandations de fournisseurs</li>
+                <li>Détection d'anomalies</li>
+              </ul>
+
+              <h2>Capacités d'intégration</h2>
+
+              <h3>Intégrations courantes</h3>
+              <ul>
+                <li><strong>CAO/PLM :</strong> Intégration des données d'ingénierie</li>
+                <li><strong>MES :</strong> Intégration des systèmes d'atelier</li>
+                <li><strong>EDI :</strong> Échange de données informatisé avec les partenaires</li>
+                <li><strong>3PL :</strong> Intégration logistique tierce partie</li>
+                <li><strong>E-commerce :</strong> Intégration des commandes en ligne</li>
+              </ul>
+
+              <h3>Outils d'intégration</h3>
+              <ul>
+                <li>Dataverse et Power Platform</li>
+                <li>Azure Integration Services</li>
+                <li>API OData et REST</li>
+                <li>Double écriture pour synchronisation en temps réel</li>
+              </ul>
+
+              <h2>Résultats réels de manufacturiers canadiens</h2>
+
+              <p><strong>Pièces automobiles de l'Ontario</strong><br/>
+              A implémenté Dynamics 365 Supply Chain Management. Résultat : Temps de planification de la production réduit de 60 %. Coûts de stockage réduits de 25 %. Livraison à temps améliorée de 82 % à 96 %.</p>
+
+              <p><strong>Transformation alimentaire de la C.-B.</strong><br/>
+              A déployé la gestion de la qualité et la traçabilité. Résultat : Temps de réponse aux rappels réduit de jours à heures. Temps d'audit de conformité réduit de 70 %. Défauts de qualité réduits de 40 %.</p>
+
+              <p><strong>Aérospatiale du Québec</strong><br/>
+              A intégré la configuration à la commande avec la production. Résultat : Délai de devis réduit de 5 jours au même jour. Erreurs d'ingénierie réduites de 80 %. Satisfaction client significativement améliorée.</p>
+
+              <h2>Considérations d'implémentation</h2>
+
+              <h3>Approche par phases</h3>
+              <p>Phases d'implémentation recommandées :</p>
+              <ol>
+                <li><strong>Fondation :</strong> Finances de base, stocks de base, achats</li>
+                <li><strong>Production :</strong> Ordres de fabrication, BOM, gammes, atelier</li>
+                <li><strong>Avancé :</strong> Optimisation de la planification, qualité, entrepôt avancé</li>
+                <li><strong>Innovation :</strong> IoT, maintenance prédictive, insights IA</li>
+              </ol>
+
+              <h3>Gestion du changement</h3>
+              <ul>
+                <li>Les environnements de production nécessitent une gestion du changement soigneuse</li>
+                <li>Planifiez la formation pour tous les quarts</li>
+                <li>Minimisez les perturbations pendant la bascule</li>
+                <li>Support hypercare pendant la stabilisation</li>
+              </ul>
+
+              <h3>Migration des données</h3>
+              <ul>
+                <li>Données maîtres (articles, BOM, clients, fournisseurs)</li>
+                <li>Transactions ouvertes (commandes, soldes de stock)</li>
+                <li>Données historiques pour l'analytique</li>
+                <li>Validation extensive requise</li>
+              </ul>
+
+              <h2>Comment VXN Vision aide les manufacturiers</h2>
+
+              <p>Nous comprenons la fabrication. Notre équipe aide les manufacturiers canadiens à :</p>
+
+              <ul>
+                <li><strong>Évaluation des processus</strong> – Analyser les opérations actuelles et identifier les opportunités d'amélioration</li>
+                <li><strong>Conception de solution</strong> – Configurer Dynamics 365 pour votre modèle de fabrication</li>
+                <li><strong>Intégration</strong> – Connecter à la CAO, MES et autres systèmes de fabrication</li>
+                <li><strong>Déploiement en atelier</strong> – Former les opérateurs et superviseurs</li>
+                <li><strong>Optimisation</strong> – Amélioration continue et capacités avancées</li>
+              </ul>
+
+              <p>Nous avons aidé des manufacturiers dans divers secteurs à améliorer l'efficacité, réduire les coûts et mieux servir leurs clients.</p>
+
+              <p><strong>Prêt à transformer vos opérations de fabrication ? Réservez votre consultation fabrication gratuite avec VXN Vision dès aujourd'hui.</strong></p>
+            </div>
+
+            <div class="blog-post-cta">
+              <h3 data-i18n="blog.posts.24.cta.title">Ready to transform manufacturing operations?</h3>
+              <p data-i18n="blog.posts.24.cta.text">
+                VXN VISION helps Canadian manufacturers implement Dynamics 365 for production, supply chain, and quality management.
+              </p>
+              <a href="contact.html" class="btn btn-primary" data-i18n="blog.posts.24.cta.button">Book a free manufacturing consultation</a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="muted">
+          © <span id="year"></span> VXN VISION. All rights reserved.
+        </div>
+        <div class="footer-links">
+          <a href="privacy.html">Privacy</a>
+          <a href="security.html">Security</a>
+          <a
+            href="https://linkedin.com/company/vxn-crm"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+          </a>
+          <a
+            href="https://x.com/Vxn_Vision"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="X"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M4 4L20 20M20 4L4 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
+    </footer>
+  </body>
+</html>
+
